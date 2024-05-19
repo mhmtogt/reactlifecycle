@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import LifeCycleMethods from "./components/LifeCycleMethods";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <LifeCycleMethods />
+    </div>
+  );
 }
 
 export default App;
