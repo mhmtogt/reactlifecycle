@@ -53,7 +53,7 @@ const UseEffectHook = () => {
       //? DOM'Dan kaldirildiginda calisti
       console.log("Unmounting")
     }
-  }, []) //? array bos
+  }, [null]) //? array nu
 
   console.log("render")
   return (
