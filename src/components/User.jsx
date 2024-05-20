@@ -20,7 +20,7 @@ const User = () => {
 
   //? componentDidMount
   useEffect(() => {
-    const sure = setInterval(getUser, 5000)
+    const sure = setInterval(getUser, 3000)
     getUser()
 
     //? componentWillUnmount (cleanup function)
